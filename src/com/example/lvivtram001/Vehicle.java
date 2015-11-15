@@ -2,12 +2,11 @@ package com.example.lvivtram001;
 
 import com.google.gson.annotations.SerializedName;
 
-public class Tram {
+public class Vehicle {
 	 // клас для опису одної машини
 	 //поля
 	 @SerializedName("X")
-	 public double x;
-	 
+	 public double x;	 
 	 @SerializedName("Y")
 	 public double y;
 	 
